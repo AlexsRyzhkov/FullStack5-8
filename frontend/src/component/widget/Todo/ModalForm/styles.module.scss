@@ -1,0 +1,22 @@
+.form {
+  display: flex;
+  flex-direction: column;
+
+  min-width: 300px;
+
+  gap: 10px;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+
+  gap: 20px;
+
+  & > label {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+  }
+}

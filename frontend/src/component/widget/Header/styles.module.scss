@@ -1,0 +1,62 @@
+.container {
+
+  background: #303B44;
+}
+
+.contant {
+  max-width: 1000px;
+  margin: auto;
+
+  color: white;
+
+  padding: 10px;
+
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.logo {
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+
+  &:hover {
+    color: #7e7e7e;
+  }
+}
+
+
+.linkContainer {
+
+  display: flex;
+  gap: 10px;
+
+  a {
+    color: white;
+    position: relative;
+    text-decoration: none;
+
+    &:before {
+      content: '';
+      position: absolute;
+      width: 0;
+
+      bottom: 3px;
+      left: 0;
+      height: 2px;
+      background: white;
+      transition: 0.2s;
+
+    }
+
+    &:hover:before {
+      width: 100%;
+    }
+  }
+}
+
+.sp {
+  display: flex;
+  gap: 10px;
+}

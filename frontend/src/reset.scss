@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+:where(*) {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.p-password-input {
+  width: 100%;
+}
+
+.p-card .p-card-body {
+  padding: 0px
+}
+
+.p-card .p-card-content {
+  padding: 0;
+}
